@@ -15,10 +15,10 @@ end)
 Section:NewToggle("Super Human", "Super Fast", function(state)
     if state then
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-game.Players.LocalPlayer.Character.Humanoid.Jumppower = 100
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
     else
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-game.Players.LocalPlayer.Character.Humanoid.Jumppower = 50
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 end
 end)
 Section:NewButton("VHub", "VHub Simple Edition", function()
