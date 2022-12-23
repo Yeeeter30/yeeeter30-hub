@@ -74,6 +74,10 @@ local Section = Tab:NewSection("Printer")
 Section:NewTextBox("Print What You type", "type", function(Printer)
 	print(Printer)
 end)
+local Section = Tab:NewSection("Walkspeed")
+Section:NewTextBox("WalkSpeed", "type", function(speed2)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed2
+end)
 --TOGGLE
 Section:NewLabel("Toggle Gui")
 Section:NewKeybind("Toggle GUI By F", "toggle the GUI from F", Enum.KeyCode.F, function()
