@@ -110,5 +110,7 @@ local Section = Tab:NewSection("https://discord.gg/jBuaysbp")
 
 local Tab = Window:NewTab("hubs")
 Section:NewButton("Moon Ui", "Moon Ui", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+end)
 
 Section:NewButton("Vhub", "vhub", function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
