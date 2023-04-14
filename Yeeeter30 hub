@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("Yeeeter30's Hub v5", "DarkTheme")
+⁹local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Yeeeter30's Hub v6", "DarkTheme")
 local Tab = Window:NewTab("universal")
 --MAIN
 local Section = Tab:NewSection("Universal")
@@ -100,6 +100,7 @@ Section:NewLabel("Toggle Gui")
 Section:NewKeybind("Toggle GUI By F", "toggle the GUI from F", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
+local Tab = Window:NewTab("discords")
 local Section = Tab:NewSection("Discords")
 local Section = Tab:NewSection("icehub")
 local Section = Tab:NewSection("https://discord.gg/IceHub")
@@ -107,4 +108,7 @@ local Section = Tab:NewSection("https://discord.gg/IceHub")
 local Section = Tab:NewSection("yeeeter30 discord")
 local Section = Tab:NewSection("https://discord.gg/jBuaysbp")
 
+local Tab = Window:NewTab("hubs")
+Section:NewButton("Moon Ui", "Moon Ui", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
 
+Section:NewButton("Vhub", "vhub", function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
