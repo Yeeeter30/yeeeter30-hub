@@ -102,6 +102,7 @@ Section:NewKeybind("Toggle GUI By F", "toggle the GUI from F", Enum.KeyCode.F, f
 end)
 
 local Tab = Window:NewTab("hubs")
+local Section = Tab:NewSection("hubs")
 Section:NewLabel("hubs")
 
 Section:NewButton("moonUi", "moonui hub", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
