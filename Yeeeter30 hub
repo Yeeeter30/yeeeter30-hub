@@ -58,6 +58,7 @@ sM["ReloadTime"] = 0.05
 sM["Bullets"] = 10
 sM["AutoFire"] = true
 end)
+
 Section:NewButton("versus script", "P", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/wC64LrAJ',true))()
 end)
