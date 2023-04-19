@@ -58,6 +58,9 @@ sM["ReloadTime"] = 0.05
 sM["Bullets"] = 10
 sM["AutoFire"] = true
 end)
+Section:NewButton("versus script", "P", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wC64LrAJ',true))()
+end)
 
 Section:NewButton("prison life GUI", "Prison Life GUI", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/VZxFg1wK"))()
@@ -69,10 +72,6 @@ end)
 Section:NewButton("Doors GUI2", "Doors GUI2", function()
 local Tab = Window:NewTab("Player")
 loadstring(game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua")()
-end)
-local section = tab:NewSection("fe scripts")
-Section:NewButton("versus fe script", "versus script", function() 
-loadstring(game:HttpGet('https://pastebin.com/raw/wC64LrAJ',true))()
 end)
 local Tab = Window:NewTab("Player")
 local Section = Tab:NewSection("Player")
